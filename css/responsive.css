@@ -19,7 +19,7 @@
 
   header .mobile-button {
     display: block;
-    float: left;
+    float: right;
     position: relative;
     width: 32px;
     height: 32px;
@@ -41,6 +41,10 @@
     list-style-type: none;
     width: 100%;
     padding: 20px 0;
+  }
+
+  header .menu-mobile ul li {
+    margin: 5px;
   }
 
   header .menu-mobile ul li a {
@@ -126,8 +130,6 @@
   /* About */
   section.about .content img {
     width: 100%;
-    margin-left: 20px;
-    margin-top: 20px;
   }
 
   /* Blog Article */
